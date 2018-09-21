@@ -1,0 +1,29 @@
+{
+  "name": "log-report",
+  "version": "1.0.0",
+  "description": "Creates a day-by-day breakdown of logged URL visits.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "debug": "nodemon --exec babel-node index.js --inspect-brk",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spamguy/log-report.git"
+  },
+  "author": "Will Oram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spamguy/log-report/issues"
+  },
+  "homepage": "https://github.com/spamguy/log-report#readme",
+  "devDependencies": {
+    "@babel/cli": "7.1.0",
+    "@babel/core": "7.1.0",
+    "@babel/node": "7.0.0",
+    "@babel/preset-env": "7.1.0",
+    "nodemon": "1.18.4"
+  },
+  "dependencies": {}
+}
